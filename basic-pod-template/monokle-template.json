@@ -11,7 +11,7 @@
       "name": "Pod Settings",
       "description": "Specifiy the settings for your Pod",
       "schema": "form-schema.json",
-      "uiScchema": "form-ui-schema.json"
+      "uiSchema": "form-ui-schema.json"
     }
   ],
   "manifests": [

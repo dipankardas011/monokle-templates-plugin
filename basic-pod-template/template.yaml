@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: [[forms[0].name]]
+[[ forms[0].namespace ? " namespace: "+forms[0].namespace + "\n" : ""]]
+spec:
+  containers:
+  - name: [[forms[0].image]]
+    image: [[forms[0].name]]
+    resources:
+      limits:
+        memory: [[forms[0].memoryLimit]]
+        cpu: [[forms[0].cpuLimit]]
+    ports:
+      - containerPort: [[forms[0].containerPort]]
+[[ forms[0].containerPort ? "    ports:\n      - containerPort: " + forms[0].containerPort + "\n" : ""]]

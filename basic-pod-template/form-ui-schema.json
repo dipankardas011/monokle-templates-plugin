@@ -1,0 +1,27 @@
+{
+  "name": {
+    "ui:title": "Name",
+    "ui:help": "The name of the Pod"
+  },
+  "namespace": {
+    "ui:title": "namespace",
+    "ui:help": "The target namespace for the Pod",
+    "ui:widget": "namespaceSelection"
+  },
+  "image": {
+    "ui:title": "Image",
+    "ui:help": "The image name to use for the pod, for example nginx:alpine"
+  },
+  "cpuLimit": {
+    "ui:title": "CPU limit",
+    "ui:help": "The container's CPU spec, for example 500m"
+  },
+  "memoryLimit": {
+    "ui:title": "Memory Limit",
+    "ui:help": "The container's CPU spec, for example 128Mi"
+  },
+  "containerPort": {
+    "ui:title": "Container port",
+    "ui:help": "The container's exposed port, for example 90"
+  }
+}

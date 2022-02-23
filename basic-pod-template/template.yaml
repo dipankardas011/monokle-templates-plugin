@@ -5,8 +5,8 @@ metadata:
 [[ forms[0].namespace ? " namespace: "+forms[0].namespace + "\n" : ""]]
 spec:
   containers:
-  - name: [[forms[0].image]]
-    image: [[forms[0].name]]
+  - name: [[forms[0].name]]
+    image: [[forms[0].image]]
     resources:
       limits:
         memory: [[forms[0].memoryLimit]]

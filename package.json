@@ -5,11 +5,9 @@
   "author": "Dipankar Das",
   "repository": "https://github.com/dipankardas011/monokle-templates-plugin",
   "monoklePlugin": {
-    "modules": [
-      {
-        "type": "template",
-        "path": "basic-pod-template"
-      }
-    ]
+    "modules": [{
+      "type": "template",
+      "path": "nginx-pod-template"
+    }]
   }
 }

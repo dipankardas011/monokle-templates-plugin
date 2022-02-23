@@ -11,6 +11,4 @@ spec:
       limits:
         memory: [[forms[0].memoryLimit]]
         cpu: [[forms[0].cpuLimit]]
-    ports:
-      - containerPort: [[forms[0].containerPort]]
 [[ forms[0].containerPort ? "    ports:\n      - containerPort: " + forms[0].containerPort + "\n" : ""]]

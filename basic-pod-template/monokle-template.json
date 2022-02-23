@@ -1,6 +1,6 @@
 {
   "name": "Basic Kubernetes Pod",
-  "id": "com.github.dipankar-das.plugin.templates.basic-pod-template",
+  "id": "com.github.dipankardas011.plugin.templates.basic-pod-template",
   "author": "Dipankar Das",
   "version": "1.0.0",
   "description": "Creates a Pod for a specified Image",
@@ -18,5 +18,5 @@
     {"filePath": "template.yaml"}
   ],
   "resultMessage": "Pod resource created successfully",
-  "helpUrl": "https://github.com/dipankardas011/monokle-mycustom-template"
+  "helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin"
 }

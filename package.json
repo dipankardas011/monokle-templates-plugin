@@ -3,7 +3,7 @@
   "description": "Custom templates plugin",
   "version": "1.0.0",
   "author": "Dipankar Das",
-  "repository": "https://github.com/dipankardas011/monokle-mycustom-template",
+  "repository": "https://github.com/dipankardas011/monokle-templates-plugin",
   "monoklePlugin": {
     "modules": [
       {

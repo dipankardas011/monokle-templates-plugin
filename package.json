@@ -1,10 +1,12 @@
 {
-  "name": "Template plugins",
+  "name": "Templates plugin",
   "description": "Custom templates plugin",
   "version": "1.0.0",
   "author": "Dipankar Das",
   "repository": "https://github.com/dipankardas011/monokle-templates-plugin",
   "monoklePlugin": {
+    "id": "com.github.dipankardas011.plugin.templates",
+		"helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin",
     "modules": [{
       "type": "template",
       "path": "nginx-pod-template"

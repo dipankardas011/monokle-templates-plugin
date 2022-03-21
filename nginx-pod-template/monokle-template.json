@@ -2,7 +2,7 @@
   "name": "Basic Kubernetes Pod",
   "id": "com.github.dipankardas011.plugin.templates.nginx-pod-template",
   "author": "Dipankar Das",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Creates a Pod for a specified Image",
   "repository": "",
   "type": "vanilla",

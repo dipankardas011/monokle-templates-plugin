@@ -8,8 +8,13 @@
     "id": "com.github.dipankardas011.plugin.templates",
 		"helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin",
     "modules": [{
-      "type": "template",
-      "path": "nginx-pod-template"
-    }]
+        "type": "template",
+        "path": "nginx-pod-template"
+      },
+      {
+        "type": "template",
+        "path": "init-container-template"
+      }
+    ]
   }
 }

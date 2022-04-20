@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: [[forms[0].name]]
-[[ forms[0].namespace ? " namespace: "+forms[0].namespace + "\n" : ""]]
+[[ forms[0].namespace ? "  namespace: "+forms[0].namespace + "\n" : ""]]
 spec:
   containers:
   - name: [[forms[0].name]]

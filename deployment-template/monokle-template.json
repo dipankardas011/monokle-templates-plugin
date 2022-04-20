@@ -1,0 +1,20 @@
+{
+  "name": "Basic Kubernetes Deployment",
+  "id": "com.github.dipankardas011.plugin.templates.deployment-template",
+  "author": "Dipankar Das",
+  "version": "1.2.0",
+  "description": "Creates a Deployment for a specified Image",
+  "repository": "",
+  "type": "vanilla",
+  "forms": [{
+    "name": "Deployment Settings",
+    "description": "Specifiy the settings for your Deployment",
+    "schema": "form-schema.json",
+    "uiSchema": "form-ui-schema.json"
+  }],
+  "manifests": [{
+    "filePath": "template.yaml"
+  }],
+  "resultMessage": "Deployment resource created successfully",
+  "helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin"
+}

@@ -4,7 +4,7 @@
   "properties": {
     "name": {
       "type": "string",
-      "default": "my-pod"
+      "default": "my-initpod"
     },
     "namespace": {
       "type": "string"

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": ["name", "image", "replicas"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "my-deploy"
+    },
+    "namespace": {
+      "type": "string",
+      "default": "default"
+    },
+    "image": {
+      "type": "string"
+    },
+    "labels": {
+      "type": "string"
+    },
+    "replicas": {
+      "type": "number",
+      "default": 2
+    }
+  }
+}

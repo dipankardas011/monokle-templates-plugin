@@ -1,0 +1,20 @@
+{
+  "name": "Kubernetes Persistent Volume Claim",
+  "id": "com.github.dipankardas011.plugin.templates.persistent-vol-claim-template",
+  "author": "Dipankar Das",
+  "version": "1.4.0",
+  "description": "Creates PVC",
+  "repository": "",
+  "type": "vanilla",
+  "forms": [{
+    "name": "PVC Settings",
+    "description": "Specifiy the settings for your PVC",
+    "schema": "form-schema.json",
+    "uiSchema": "form-ui-schema.json"
+  }],
+  "manifests": [{
+    "filePath": "template.yaml"
+  }],
+  "resultMessage": "PVC resource created successfully",
+  "helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin"
+}

@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: [[ forms[0].name ]]
+[[ forms[0].namespace ? "  namespace: "+forms[0].namespace + "\n" : ""]]
+[[ forms[0].labels ? "  labels:\n    app: "+forms[0].labels + "\n" : ""]]
+
+spec:
+  replicas: [[ forms[0].replicas ]]
+  selector:
+    matchLabels:
+[[ forms[0].labels ? "      app: "+forms[0].labels + "\n" : ""]]
+  template:
+    metadata:
+[[ forms[0].labels ? "      labels:\n        app: "+forms[0].labels + "\n" : ""]]
+    spec:
+      containers:
+      - name: [[ forms[0].name ]]
+        image: [[ forms[0].image ]]
+        ports:
+        - containerPort: 80
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+        livenessProbe:
+          exec:
+            command:
+              - ""
+        resources:
+          requests:
+            memory: "50Mi"
+            cpu: "100m"
+          limits:
+            memory: ""
+            cpu: ""
+        volumeMounts:
+          - mountPath: "<Path>"
+            name: "<volumeName>"

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "ui:title": "Name",
+    "ui:help": "The name of the Service"
+  },
+  "namespace": {
+    "ui:title": "namespace",
+    "ui:help": "The target namespace for the Service",
+    "ui:widget": "namespaceSelection"
+  },
+  "type": {
+    "ui:title": "Type",
+    "ui:help": "Service Type"
+  },
+  "port": {
+    "ui:title": "Exposed Port",
+    "ui:help": "What should be the exposed Service port?"
+  },
+  "targetPort": {
+    "ui:title": "Pod's Port",
+    "ui:help": "What should be the pod's port?"
+  },
+  "podSelector": {
+    "ui:title": "Name of Pod",
+    "ui:help": "What should be the name of pod to be exposed?"
+  }
+}

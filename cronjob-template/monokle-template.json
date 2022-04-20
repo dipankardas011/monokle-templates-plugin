@@ -1,0 +1,20 @@
+{
+  "name": "Basic Kubernetes CronJob",
+  "id": "com.github.dipankardas011.plugin.templates.cronjob-template",
+  "author": "Dipankar Das",
+  "version": "1.2.0",
+  "description": "Creates a CronJob",
+  "repository": "",
+  "type": "vanilla",
+  "forms": [{
+    "name": "CronJob Settings",
+    "description": "Specifiy the settings for your CronJob",
+    "schema": "form-schema.json",
+    "uiSchema": "form-ui-schema.json"
+  }],
+  "manifests": [{
+    "filePath": "template.yaml"
+  }],
+  "resultMessage": "CronJob resource created successfully",
+  "helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin"
+}

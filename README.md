@@ -1,12 +1,15 @@
 # This the Monokle template Repo
 
-├───init-container-template
+* ✅ **Init-Container-template**
+* ✅ **Nginx-pod-template**
+* ✅ **Deployment-template**
+* ✅ **CronJob-template**
+* ✅ **Services-template**
+* ✅ **Persistent-Volume-template**
+* ✅ **Persistent-Volume-Claim-template**
 
-└───nginx-pod-template
 
-are the 2 template that you can use
-
-# Installation
+# Steps to Install
 
 1. Open the Monokle and click the plugin icon 
 

@@ -1,11 +1,11 @@
 {
   "name": {
     "ui:title": "Name",
-    "ui:help": "The name of the Pod"
+    "ui:help": "The name of the init-container Pod"
   },
   "namespace": {
     "ui:title": "namespace",
-    "ui:help": "The target namespace for the Pod",
+    "ui:help": "The target namespace for the init-container Pod",
     "ui:widget": "namespaceSelection"
   },
   "image": {

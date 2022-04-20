@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": ["name", "labels", "serviceN"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "my-service"
+    },
+    "namespace": {
+      "type": "string",
+      "default": "default"
+    },
+    "labels": {
+      "type": "string",
+      "default": "sc: redis"
+    },
+    "serviceN": {
+      "type": "string"
+    },
+    "replicas": {
+      "type": "number",
+      "default": 2
+    },
+    "accessMode": {
+      "type": "string",
+      "default": "ReadWriteOnce",
+      "enum": [
+        "ReadWriteOnce",
+        "ReadOnlyMany",
+        "ReadWriteMany",
+        "ReadWriteOncePod"
+      ]
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

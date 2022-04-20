@@ -1,8 +1,7 @@
 # This the Monokle template Repo
 
-├───init-container-template
-
-└───nginx-pod-template
+* ✅ **Init-Container-template**
+* ✅ **Nginx-pod-template**
 
 are the 2 template that you can use
 

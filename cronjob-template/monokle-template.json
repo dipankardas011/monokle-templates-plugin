@@ -1,6 +1,6 @@
 {
-  "name": "Basic Kubernetes Deployment",
-  "id": "com.github.dipankardas011.plugin.templates.deployment-template",
+  "name": "Basic Kubernetes CronJob",
+  "id": "com.github.dipankardas011.plugin.templates.cronjob-template",
   "author": "Dipankar Das",
   "version": "1.2.0",
   "description": "Creates a Deployment for a specified Image",

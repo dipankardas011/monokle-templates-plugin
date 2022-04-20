@@ -18,6 +18,10 @@
       {
         "type": "template",
         "path": "deployment-template"
+      },
+      {
+        "type": "template",
+        "path": "cronjob-template"
       }
     ]
   }

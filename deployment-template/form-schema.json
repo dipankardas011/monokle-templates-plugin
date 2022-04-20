@@ -1,13 +1,14 @@
 {
   "type": "object",
-  "required": ["name", "image"],
+  "required": ["name", "image", "replicas"],
   "properties": {
     "name": {
       "type": "string",
-      "default": "my-pod"
+      "default": "my-deploy"
     },
     "namespace": {
-      "type": "string"
+      "type": "string",
+      "default": "default"
     },
     "image": {
       "type": "string"
@@ -16,7 +17,8 @@
       "type": "string"
     },
     "replicas": {
-      "type": "string"
+      "type": "number",
+      "default": 2
     }
   }
 }

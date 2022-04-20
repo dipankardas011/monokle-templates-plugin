@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "my-cron-job"
+    },
+    "namespace": {
+      "type": "string",
+      "default": "default"
+    }
+  }
+}

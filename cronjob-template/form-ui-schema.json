@@ -1,11 +1,11 @@
 {
   "name": {
     "ui:title": "Name",
-    "ui:help": "The name of the Deployment"
+    "ui:help": "The name of the CronJob"
   },
   "namespace": {
     "ui:title": "namespace",
-    "ui:help": "The target namespace for the Pod",
+    "ui:help": "The target namespace for the CronJob",
     "ui:widget": "namespaceSelection"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "name": "Basic Kubernetes Persistent Volume",
+  "id": "com.github.dipankardas011.plugin.templates.persistent-vol-template",
+  "author": "Dipankar Das",
+  "version": "1.4.0",
+  "description": "Creates a Persistent volume",
+  "repository": "",
+  "type": "vanilla",
+  "forms": [{
+    "name": "Pod Settings",
+    "description": "Specifiy the settings for your Pod",
+    "schema": "form-schema.json",
+    "uiSchema": "form-ui-schema.json"
+  }],
+  "manifests": [{
+    "filePath": "template.yaml"
+  }],
+  "resultMessage": "Pod resource created successfully",
+  "helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin"
+}

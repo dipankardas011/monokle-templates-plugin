@@ -1,0 +1,23 @@
+{
+  "name": {
+    "ui:title": "Name",
+    "ui:help": "The name for the PVC"
+  },
+  "namespace": {
+    "ui:title": "namespace",
+    "ui:help": "The target namespace for the PVC",
+    "ui:widget": "namespaceSelection"
+  },
+  "labels": {
+    "ui:title": "Labels",
+    "ui:help": "The label for PVC"
+  },
+  "storage": {
+    "ui:title": "Volume Size",
+    "ui:help": "The volume size"
+  },
+  "accessMode": {
+    "ui:title": "Access Mode",
+    "ui:help": "The AccessMode for PVC"
+  }
+}

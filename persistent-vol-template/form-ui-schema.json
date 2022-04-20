@@ -1,0 +1,27 @@
+{
+  "name": {
+    "ui:title": "Name",
+    "ui:help": "The name for the PV"
+  },
+  "namespace": {
+    "ui:title": "namespace",
+    "ui:help": "The target namespace for the PV",
+    "ui:widget": "namespaceSelection"
+  },
+  "labels": {
+    "ui:title": "Labels",
+    "ui:help": "The label for PV"
+  },
+  "storage": {
+    "ui:title": "Volume Size",
+    "ui:help": "The volume size"
+  },
+  "accessMode": {
+    "ui:title": "Access Mode",
+    "ui:help": "The AccessMode for PV"
+  },
+  "reclaim": {
+    "ui:title": "reclaim Policy",
+    "ui:help": "The reclaim policy"
+  }
+}

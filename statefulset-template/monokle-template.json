@@ -2,7 +2,7 @@
   "name": "Basic Kubernetes StatefulSet",
   "id": "com.github.dipankardas011.plugin.templates.statefulset-template",
   "author": "Dipankar Das",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "description": "Creates a StatefulSet for Databases",
   "repository": "",
   "type": "vanilla",

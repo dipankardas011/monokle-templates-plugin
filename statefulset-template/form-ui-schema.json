@@ -9,8 +9,8 @@
     "ui:widget": "namespaceSelection"
   },
   "image": {
-    "ui:title": "Access Mode",
-    "ui:help": "Permissions for the volume access"
+    "ui:title": "Image",
+    "ui:help": "Image for the container"
   },
   "labels": {
     "ui:title": "labels",

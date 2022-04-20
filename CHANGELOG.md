@@ -4,7 +4,6 @@
 * Services
 * Persistent Volume Claim
 * Persistent Volume
-* Some more templates🚧⚒️
 
 # 0.1v
 * Added the init-container template

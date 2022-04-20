@@ -7,14 +7,14 @@
   "repository": "",
   "type": "vanilla",
   "forms": [{
-    "name": "Pod Settings",
-    "description": "Specifiy the settings for your Pod",
+    "name": "Deployment Settings",
+    "description": "Specifiy the settings for your Deployment",
     "schema": "form-schema.json",
     "uiSchema": "form-ui-schema.json"
   }],
   "manifests": [{
     "filePath": "template.yaml"
   }],
-  "resultMessage": "Pod resource created successfully",
+  "resultMessage": "Deployment resource created successfully",
   "helpUrl": "https://github.com/dipankardas011/monokle-templates-plugin"
 }

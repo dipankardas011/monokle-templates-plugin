@@ -1,4 +1,5 @@
 # 0.2v
+* Deployment 🆕
 * Some more templates🚧⚒️
 
 # 0.1v

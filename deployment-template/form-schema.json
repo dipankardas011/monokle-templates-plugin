@@ -11,6 +11,12 @@
     },
     "image": {
       "type": "string"
+    },
+    "labels": {
+      "type": "string"
+    },
+    "replicas": {
+      "type": "string"
     }
   }
 }

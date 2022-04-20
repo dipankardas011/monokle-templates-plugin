@@ -7,6 +7,7 @@
 * ✅ **Services-template**
 * ✅ **Persistent-Volume-template**
 * ✅ **Persistent-Volume-Claim-template**
+* ✅ **StatefulSet-template**
 
 
 # Steps to Install

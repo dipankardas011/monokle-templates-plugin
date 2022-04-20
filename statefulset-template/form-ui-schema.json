@@ -1,0 +1,31 @@
+{
+  "name": {
+    "ui:title": "Name",
+    "ui:help": "The name of the StatefulSet"
+  },
+  "namespace": {
+    "ui:title": "namespace",
+    "ui:help": "The target namespace for the StatefulSet",
+    "ui:widget": "namespaceSelection"
+  },
+  "image": {
+    "ui:title": "Image",
+    "ui:help": "Image for the container"
+  },
+  "labels": {
+    "ui:title": "labels",
+    "ui:help": "labels"
+  },
+  "serviceN": {
+    "ui:title": "Service Name",
+    "ui:help": "Service Name for StatefulSet"
+  },
+  "replicas": {
+    "ui:title": "Replicas",
+    "ui:help": "Number of replicas for it"
+  },
+  "accessMode": {
+    "ui:title": "Access Mode",
+    "ui:help": "Permissions for the volume access"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Basic Kubernetes CronJob",
-  "id": "com.github.dipankardas011.plugin.templates.cronjob-template",
+  "name": "Basic Kubernetes Services",
+  "id": "com.github.dipankardas011.plugin.templates.services-template",
   "author": "Dipankar Das",
-  "version": "1.2.0",
-  "description": "Creates a CronJob",
+  "version": "1.3.0",
+  "description": "Creates a Service for forwarding traffic",
   "repository": "",
   "type": "vanilla",
   "forms": [{

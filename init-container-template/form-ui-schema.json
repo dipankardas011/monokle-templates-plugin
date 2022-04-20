@@ -1,7 +1,7 @@
 {
   "name": {
     "ui:title": "Name",
-    "ui:help": "The name of the Pod"
+    "ui:help": "The name of the init-container Pod"
   },
   "namespace": {
     "ui:title": "namespace",

@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "required": ["name", "type", "port", "podSelector"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "my-service"
+    },
+    "namespace": {
+      "type": "string",
+      "default": "default"
+    },
+    "type": {
+      "type": "string",
+      "default": "NodePort",
+      "enum": [
+        "LoadBalancer",
+        "NodePort",
+        "ClusterIP"
+      ]
+    },
+    "port": {
+      "type": "number",
+      "default": 8080
+    },
+    "targetPort": {
+      "type": "number",
+      "default": 80
+    },
+    "podSelector": {
+      "type": "string",
+      "default": "app: nginx"
+    }
+  }
+}

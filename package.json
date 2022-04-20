@@ -22,6 +22,10 @@
       {
         "type": "template",
         "path": "cronjob-template"
+      },
+      {
+        "type": "template",
+        "path": "services-template"
       }
     ]
   }
